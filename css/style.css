@@ -1,0 +1,230 @@
+.root{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.bg-light{
+    background-color: #d51642!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff!important;
+}
+
+.cloud{
+    width:100%;
+    margin-top: -77px;
+    
+}
+.carousel-caption {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 120px;
+    padding: 20px;
+    right: 3%;
+    left: 7%;
+}
+
+.fas{
+    vertical-align: middle;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.fas.fa-plane-departure,.fas.fa-plane-arrival{
+    vertical-align: middle;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: #474747;
+    z-index: 999;
+}
+.carousel-caption h6{
+  margin-left: -670px;
+  margin-bottom: 25px;
+    font-style: inherit;
+}
+.icon{
+   margin-left: -67px;
+}
+.fas.fa-calendar{
+    vertical-align: middle;
+    position: absolute; 
+    color: #474747;
+    z-index: 999;
+    top: 28%;
+    left: 0%;
+}
+
+.form-control{
+    text-indent: 30px;
+    position: relative;
+    border-style: none;
+    border-radius: 0;
+    width: 80%;
+  
+}
+
+
+.btn-primary{
+    background-color: #d51642;
+    border-color: #d51642;
+    border-radius: 20px;
+    padding: 7px 25px;
+    margin-top: 20px;
+}
+.air{
+    color: #d51642;
+}
+.welcome h2{
+    padding-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+.welcome p{
+    font-size: 16px;
+    text-align: center;
+}
+.border{
+    border-bottom: 0.1px solid #e0e0e0!important;
+    margin-top: 40px;
+}
+.welcome h2, p{
+    text-align: center;
+}
+.material-icons{
+    font-size: 30px;
+    vertical-align: middle;
+    padding: 10px 30px;
+}
+.plane{
+    font-size: 25px;
+    margin-top: 10x;
+}
+.welcome-columns h4,p{
+    text-align: left;
+}
+.welcome-columns h4{
+    font-size: 24px;
+    padding-top: 30px;
+}
+.welcome-columns p{
+    font-size: 14px;
+    padding-left: 98px;
+}
+.flight{
+    background-color: #f0f0f0;
+    margin-top: 30px;
+    
+}
+.col-lg-6.col-md-12{
+    padding-left: 0px;
+    padding-right: 0;
+   
+}
+.box{
+    background-color: #ffffff;
+    margin: 30px;
+    box-shadow: 5px 5px  #e9e9e9;
+    display: flex;
+}
+.pic{
+    display: inline-block;
+}
+.image-information h5{
+    font-size: 20px; 
+    margin-top: 15px;
+}
+.image-information p{
+    font-size: 12px;
+}
+.image-information{
+   margin: 9px 14px;
+   display: inline-block;
+}
+
+li{
+    list-style: none;
+}
+a{
+    color: #202020!important;
+    font-size: 13px;
+}
+.top-footer{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+footer{
+    background-color: #f0f0f0;
+    padding: 10px 10px;
+}
+footer p{
+    font-size: 13px;
+    margin: 10px 0;
+    
+}
+/* media querry for mobile(potraite)*/
+@media(min-width: 320px) and (max-width: 767px){
+    .cloud{
+        margin-top: -10px;
+    }
+    .material-icons{
+        font-size: 30px;
+        vertical-align: middle;
+        padding: 0px 15px;
+    }
+    .welcome-columns p {
+        padding-left: 65px;
+    }
+   .box{
+       display: block;
+   }
+   .image-information{
+       padding: 10px 20px;
+       margin: 0;
+   }
+   img{
+       width: 300px;
+   }
+}
+/* media querry for mobile (landscape)*/
+@media(min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+    img{
+        width: 480px;
+    }
+}
+/* media querry for tab (potraite)*/
+@media(min-width: 768px) and (max-width: 992px){
+    .cloud{
+        margin-top: -19px;
+    }
+    .carousel-caption{
+        margin-bottom: 28px;
+        padding: 0px 10px;
+    }
+    .form-control{
+        margin-bottom: 10px;
+    }
+    .carousel-caption h6{
+        margin-left: -238px;
+       margin-bottom: 5px;
+       padding-top: 5px;
+    }
+}
+/* media querry for tab(Landscape)*/
+@media(min-width: 992px) and (max-width: 1024px) and (orientation: landscape){
+    .carousel-caption h6{
+        margin-left: -452px;
+    }
+    .icon{
+        margin-right: -19px;
+    }
+    .material-icons{
+        padding: 10px;
+    }
+    .welcome-columns p{
+        margin-left: -47px;
+    }
+}
+
